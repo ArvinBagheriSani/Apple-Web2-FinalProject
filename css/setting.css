@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: sf;
+  src: url("../media/fonts/SFUIDisplay-Regular.eot");
+  src: url("../media/fonts/SFUIDisplay-Regular.ttf");
+  src: url("../media/fonts/SFUIDisplay-Regular.woff");
+  src: url("../media/fonts/SFUIDisplay-Regular.woff2");
+}
+.wrapper {
+  width: 100%;
+}
