@@ -72,3 +72,11 @@
 .menu nav div:hover .blur .submenu {
   height: 500px;
 }
+.lineup,
+.hamburger,
+.close,
+.logomobile,
+.bagmobile,
+.searchmobile {
+  display: none;
+}

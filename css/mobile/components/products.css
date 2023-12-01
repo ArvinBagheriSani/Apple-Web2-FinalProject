@@ -1,0 +1,213 @@
+.apple {
+  width: 100%;
+  display: block;
+  height: 500px;
+  background-image: url(../../../media/images/holiday_2023_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.apple .note {
+  width: 80%;
+  display: block;
+  /*background-color: aqua;*/
+  text-align: center;
+  position: relative;
+  left: calc(50% - 80% / 2);
+  top: 70%;
+  text-decoration: none;
+}
+.apple .note .title {
+  font-family: sf;
+  font-size: 35px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-bottom: 5px;
+}
+.apple .note .text {
+  font-family: sf;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+.apple .note .link {
+  font-family: sf;
+  font-size: 20px;
+}
+.apple .note .link a {
+  text-decoration: none;
+  color: #1f78d2;
+}
+.apple .note .link a:hover {
+  text-decoration: underline;
+}
+.iphone {
+  width: 100%;
+  display: block;
+  height: 500px;
+  background-image: url(../../../media/images/promo_iphone15pro_small.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.iphone .note {
+  width: 80%;
+  display: block;
+  /*background-color: aqua;*/
+  text-align: center;
+  position: relative;
+  left: calc(50% - 80% / 2);
+  top: 10%;
+  text-decoration: none;
+}
+.iphone .note .title {
+  font-family: sf;
+  font-size: 35px;
+  font-weight: bold;
+  color: #f2f2f2;
+  margin-bottom: 5px;
+}
+.iphone .note .text {
+  font-family: sf;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #f2f2f2;
+}
+.iphone .note .link {
+  font-family: sf;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.iphone .note .link a {
+  text-decoration: none;
+  color: #3588dc;
+}
+.iphone .note .link a:hover {
+  text-decoration: underline;
+}
+.watch {
+  width: 100%;
+  display: block;
+  height: 600px;
+  background-image: url(../../../media/images/hero_apple_watch.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.watch .note {
+  width: 80%;
+  display: block;
+  /*background-color: aqua;*/
+  text-align: center;
+  position: relative;
+  left: calc(50% - 80% / 2);
+  top: 60%;
+  text-decoration: none;
+}
+.watch .note .title {
+  font-family: sf;
+  font-size: 35px;
+  font-weight: bold;
+  color: #f2f2f2;
+  margin-bottom: 5px;
+}
+.watch .note .text {
+  font-family: sf;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #f2f2f2;
+}
+.watch .note .link {
+  font-family: sf;
+  display: inline-block;
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  border-radius: 28px;
+  background-color: #f2f2f2;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.watch .note .link a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.watch .note .link:hover {
+  background-color: white;
+}
+.products {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 13px;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: auto;
+  gap: 13px;
+  justify-content: center;
+  align-content: center;
+  /*background-color: aqua;*/
+}
+.products .product {
+  /*background-color: aquamarine;*/
+  height: 80vh;
+}
+.products .product img {
+  width: 100vw;
+  height: 98%;
+  display: block;
+  object-fit: cover;
+}
+.products .product .note {
+  width: 80%;
+  display: block;
+  /*background-color: aqua;*/
+  text-align: center;
+  position: relative;
+  left: calc(50% - 80% / 2);
+  bottom: 90%;
+  text-decoration: none;
+}
+.white {
+  color: #f2f2f2 !important;
+}
+.products .product .note .title {
+  font-family: sf;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-bottom: 5px;
+}
+.products .product .note .title img {
+  width: 40%;
+  margin: 0 auto;
+}
+.products .product .note .text {
+  font-family: sf;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+.products .product .note .link {
+  font-family: sf;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.products .product .note .link a {
+  text-decoration: none;
+  color: #3588dc;
+}
+.products .product .note .link a:hover {
+  text-decoration: underline;
+}
