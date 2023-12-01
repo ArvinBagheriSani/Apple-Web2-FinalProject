@@ -4,9 +4,14 @@
   height: auto;
   background-color: #f2f2f2;
   position: fixed;
+  opacity: 0.95;
   top: 0;
   left: 0;
   z-index: 2;
+  transition: 300ms;
+}
+.menu:hover {
+  opacity: 1;
 }
 .menu nav {
   width: 100%;
