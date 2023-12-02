@@ -74,18 +74,25 @@ footer {
 .footer .end .up a {
   color: #1f78d2;
 }
+.footer .end .down {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
 .footer .end .down .left {
+  width: 36%;
   display: inline-block;
   font-family: sf;
   font-size: 12px;
   text-transform: capitalize;
   color: #5b5b5b;
-  margin-right: 5%;
   margin-top: 15px;
   margin-bottom: 20px;
 }
 .footer .end .down .center {
+  width: auto;
   display: inline-flex;
+  flex-grow: row wrap;
   gap: 10px;
   justify-content: space-around;
   margin-top: 15px;
@@ -93,6 +100,7 @@ footer {
 }
 .footer .end .down .center div {
   box-sizing: border-box;
+  width: fit-content;
   padding-right: 10px;
   border-right: 2px solid lightgray;
   font-family: sf;
@@ -105,6 +113,7 @@ footer {
   cursor: pointer;
 }
 .footer .end .down .right {
+  width: fit-content;
   text-align: right;
   direction: rtl;
   display: inline-flex;
@@ -112,9 +121,10 @@ footer {
   font-size: 12px;
   text-transform: capitalize;
   color: #5b5b5b;
-  margin-left: 25%;
   margin-top: 15px;
   margin-bottom: 20px;
+  position: absolute;
+  right: 0;
 }
 .footer .end .down .right:hover {
   text-decoration: underline;

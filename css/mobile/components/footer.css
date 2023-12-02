@@ -96,6 +96,7 @@ footer {
 }
 .footer .end .down .center {
   display: flex;
+  width: fit-content;
   gap: 10px;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -103,7 +104,7 @@ footer {
   margin-bottom: 20px;
   box-sizing: border-box;
   padding-right: 15px;
-  padding-left: 12px;
+  padding-left: 15px;
 }
 .footer .end .down .center div {
   box-sizing: border-box;
