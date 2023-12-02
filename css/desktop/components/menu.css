@@ -25,7 +25,6 @@
 .menu nav div {
   width: fit-content;
   height: 43px;
-
   /*background-color: aqua;*/
 }
 .menu nav div a {
@@ -68,9 +67,67 @@
   z-index: 1;
   background-color: #f2f2f2;
   transition: 300ms;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 50px;
+  overflow: scroll;
+}
+.menu nav div .blur .submenu div {
+  position: relative;
+  height: fit-content;
+  top: -100vh;
+  opacity: 0;
+  left: calc(20% - 40px);
+  display: flex;
+  flex-flow: column nowrap;
+  /*background-color: aqua;*/
+  transition: 300ms;
+}
+.menu nav div .blur .submenu div div {
+  position: relative;
+  top: -100vh;
+  left: 0;
+  opacity: 0;
+  display: block;
+  /*background-color: red;*/
+  width: fit-content;
+  height: fit-content;
+  transition: 300ms;
+}
+.smallgray {
+  text-transform: capitalize;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  color: gray !important;
+}
+.smallblack {
+  text-transform: capitalize;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  color: #2b2b2b !important;
+}
+.bigblack {
+  text-transform: capitalize;
+  font-size: 32px !important;
+  font-weight: bold !important;
+  color: #2b2b2b !important;
+}
+.menu nav div .blur .submenu div div a {
+  text-decoration: none;
+  font-family: sf;
+  font-size: 20px;
+  font-weight: bold;
 }
 .menu nav div:hover .blur .submenu {
   height: 500px;
+}
+.menu nav div:hover .blur .submenu div {
+  top: 30px;
+  opacity: 1;
+}
+.menu nav div:hover .blur .submenu div div {
+  top: 0;
+  opacity: 1;
 }
 .lineup,
 .hamburger,
