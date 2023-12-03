@@ -133,3 +133,6 @@ footer {
 .borderremover {
   border: unset !important;
 }
+.details {
+  display: none !important;
+}

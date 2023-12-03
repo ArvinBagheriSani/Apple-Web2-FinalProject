@@ -47,6 +47,7 @@
   width: 18px;
   height: 18px;
   margin-left: 12px;
+  cursor: pointer;
 }
 .close {
   position: fixed;
@@ -73,6 +74,7 @@
   vertical-align: middle;
   top: 0;
   right: calc(0% + 40px);
+  cursor: pointer;
 }
 .bagmobile svg {
   width: 20px;
@@ -85,6 +87,7 @@
   position: fixed;
   top: 0;
   right: calc(0% + 80px);
+  cursor: pointer;
 }
 .searchmobile svg {
   width: 18px;
@@ -136,5 +139,5 @@
   fill: #393939;
 }
 .submenu {
-  display: none;
+  display: none !important;
 }

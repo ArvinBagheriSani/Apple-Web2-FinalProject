@@ -138,3 +138,36 @@ footer {
 .borderremover {
   border: unset !important;
 }
+.tags {
+  display: none !important;
+}
+.details {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  padding: 13px;
+  border-bottom: 2px solid lightgray;
+  list-style: none;
+}
+.details details summary {
+  font-family: sf;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #5b5b5b;
+  margin-left: 13px;
+  list-style: "+ ";
+}
+.details li {
+  margin: 8px 20px;
+}
+.details li a {
+  font-family: sf;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #5b5b5b;
+  text-decoration: none;
+}
+.details li a:hover {
+  text-decoration: underline;
+}
